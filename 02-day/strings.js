@@ -1,8 +1,8 @@
-let space= ' '
+let waitForIt= ' '
 let firstName= 'Marvin'
 let lastName= 'Eriksen'
 // tell them the full name
-let fullName= firstName + space + lastName
+let fullName= firstName + waitForIt + lastName
 console.log(fullName)
 
 /*
@@ -37,3 +37,17 @@ console.log(js.toLowerCase()) // Abc to abc
 // substring() : same but doesnt count the last index
 console.log(js.substring(4,6)) 
 
+// split() : splits a string at a specified place
+let string= "30 Days of JavaScript"
+console.log(string.split())
+console.log(string.split(' ')) 
+
+let string2= "30, Days, of, JavaScript"
+console.log(string2.split(',')) 
+console.log(string2.split(', ')) // removes blank too
+
+// trim() : Removes trailing space in the beginning or the end of a string.
+let string3= "    30 Days of JavaScript    "
+console.log(string3.trim()) 
+
+// includes() : 
