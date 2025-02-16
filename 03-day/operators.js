@@ -84,3 +84,4 @@ let age = 20
 let message = age >= 18
     ? console.log('you are an adult')
     : console.log('you are a minor')
+
