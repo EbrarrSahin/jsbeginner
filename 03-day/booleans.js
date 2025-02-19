@@ -34,3 +34,4 @@ NaN
 // if a function is not turning a value, it will be undefined
 let firstName
 console.log(firstName)
+
